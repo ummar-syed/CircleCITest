@@ -53,4 +53,5 @@
          <artifactId>java-client</artifactId>
          <version>5.0.3</version>
       </dependency>
+      </dependencies>
 </project>
