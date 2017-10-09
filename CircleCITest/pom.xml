@@ -6,11 +6,7 @@
    <version>1</version>
    <packaging>jar</packaging>
    <name>CircleCITest</name>
-  <properties>        
-    <defaultSuiteFiles>
-        ./Sets/Suits/CMS_Administration_SiteBackup_029.xml,
-    </defaultSuiteFiles>
-    <suiteFile>${defaultSuiteFiles}</suiteFile>
+  <properties>
  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 </properties>
 <profiles>
