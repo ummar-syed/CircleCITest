@@ -18,12 +18,8 @@ public class TestBase extends Constants
 		capabilities.setCapability(MobileCapabilityType.BROWSER_NAME,"");	    
 		capabilities.setCapability("app", App_Source);
 		capabilities.setCapability("platformName","Android");
-		//capabilities.setCapability("deviceName",Device_Name);
-		capabilities.setCapability("platformVersion",Platform_Version); 
-		//capabilities.setCapability("appiumVersion", "1.5.1");
-capabilities.setCapability("deviceName","Samsung Galaxy S4 Emulator");
-capabilities.setCapability("deviceOrientation", "portrait");
-capabilities.setCapability("browserName", ""); 
+		capabilities.setCapability("deviceName",Device_Name);
+		capabilities.setCapability("platformVersion",Platform_Version);
 		driver = new AndroidDriver<WebElement>(new URL(Constants.Url),capabilities);
 	}
 }
