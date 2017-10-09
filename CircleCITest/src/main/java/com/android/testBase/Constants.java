@@ -2,8 +2,8 @@ package com.android.testBase;
 
 public class Constants 
 {
-	public static final String USERNAME = "sandeshfalke";
-	public static final String ACCESS_KEY = "a696f1a8-8596-4c89-8a90-3a96fe3cfad1";
+	public static final String USERNAME = "kr28mevada";
+	public static final String ACCESS_KEY = "b7219edb-02bd-4c37-badb-4d14594615d4";
 	public static final String Url = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:443/wd/hub";
 	public static final String App_Source = "sauce-storage:Login.apk";
 	public static final String Device_Name = "Android GoogleAPI Emulator";
