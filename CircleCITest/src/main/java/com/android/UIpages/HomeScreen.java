@@ -24,7 +24,8 @@ public class HomeScreen
 		username.sendKeys(user);
 		password = driver.findElementById("com.circle_ci:id/password_EditText");
 		password.sendKeys(pass);
-		login_button = driver.findElementById("com.circle_ci:id/submit_Button");		
+		//login_button = driver.findElementById("com.circle_ci:id/submit_Button");		
+		login_button = driver.findElementById("com.circle_ci:id/submit");		
 		login_button.click();
 	}
 }
